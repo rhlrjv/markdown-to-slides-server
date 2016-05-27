@@ -9,7 +9,7 @@ Parses a markdown file into HTML slides and starts a server with [browser sync](
 - [Install](#install)
 - [Usage](#usage)
 - [Methods](#methods)
-  - [`({[<Number> port,] <String> markdown[, <Boolean> open,] [<String> title]})`](#number-port-string-markdown-boolean-open-string-title)
+  - [`({[<Number> port,] <String> markdown[, <Boolean> open,] [<String> title][, <String> stylesheet]})`](#number-port-string-markdown-boolean-open-string-title-string-stylesheet)
 - [Tests](#tests)
 - [Developing](#developing)
   - [Requirements](#requirements)
@@ -43,7 +43,7 @@ quit()
 ```
 
 ## Methods
-### `({[<Number> port,] <String> markdown[, <Boolean> open,] [<String> title]})`
+### `({[<Number> port,] <String> markdown[, <Boolean> open,] [<String> title][, <String> stylesheet]})`
 Starts the server. Returns a function that can be called to quit the server.
 
 ## Tests

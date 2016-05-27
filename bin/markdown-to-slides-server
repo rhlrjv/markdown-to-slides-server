@@ -11,6 +11,10 @@ var argv = require('yargs')
     alias: 't'
   , describe: 'What to show in the <title> tag'
   })
+  .option('style', {
+    alias: 's'
+  , describe: 'optional css styles'
+  })
   .option('port', {
     alias: 'p'
   , describe: 'port to run the server on. Will take this port and the port +1 so the liverloead server can work'
